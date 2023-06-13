@@ -11,9 +11,9 @@ awk 'NF' descriptions.txt > temp.txt
 mv temp.txt descriptions.txt
 
 # aide pour debug
-wc -l titres.txt
-wc -l prix.txt
-wc -l descriptions.txt
+# wc -l titres.txt
+# wc -l prix.txt
+# wc -l descriptions.txt
 
 # permet de fusionner les lignes correspondantes des 3 fichiers
 paste -d "|" titres.txt prix.txt descriptions.txt
